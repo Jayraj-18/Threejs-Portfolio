@@ -26,6 +26,7 @@ Now the component code:
 */
 
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const projects = [
     {
@@ -86,12 +87,12 @@ function WordPressShowcase() {
                         study.
                     </p>
                     <div className="mt-4 flex gap-3">
-                        <a
-                            href="/contact"
+                        <Link
+                            to="/contact"
                             className="inline-block px-4 py-2 bg-white text-black font-medium rounded-md shadow-sm hover:bg-gray-200 transition-colors"
                         >
                             Hire me
-                        </a>
+                        </Link>
                         <a
                             href="/Jayraj_Resume.pdf"
                             className="inline-block px-4 py-2 border border-gray-700 text-white rounded-md hover:bg-gray-800 transition-colors"
