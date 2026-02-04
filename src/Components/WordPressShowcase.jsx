@@ -93,7 +93,7 @@ function WordPressShowcase() {
                             Hire me
                         </a>
                         <a
-                            href="./Jayraj Resume.pdf"
+                            href="/Jayraj_Resume.pdf"
                             className="inline-block px-4 py-2 border border-gray-700 text-white rounded-md hover:bg-gray-800 transition-colors"
                             download
                         >
