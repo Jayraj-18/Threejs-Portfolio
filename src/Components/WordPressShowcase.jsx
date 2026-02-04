@@ -87,12 +87,12 @@ function WordPressShowcase() {
                         study.
                     </p>
                     <div className="mt-4 flex gap-3">
-                        <Link
+                        {/* <Link
                             to="/contact"
                             className="inline-block px-4 py-2 bg-white text-black font-medium rounded-md shadow-sm hover:bg-gray-200 transition-colors"
                         >
                             Hire me
-                        </Link>
+                        </Link> */}
                         <a
                             href="/Jayraj_Resume.pdf"
                             className="inline-block px-4 py-2 border border-gray-700 text-white rounded-md hover:bg-gray-800 transition-colors"
