@@ -1,29 +1,4 @@
-/*
-WordPressShowcase.jsx
-Single-file React component (Tailwind CSS) to add a "WordPress work" page to your portfolio.
-HOW TO USE
-1. Copy this file to: src/components/WordPressShowcase.jsx (or src/pages/WordPressShowcase.jsx for Next.js).
-2. Replace images/URLs in `projects` with your real screenshots and live links.
-3. Import and add a route or navigation link to this page.
 
-What this file contains (and why):
-- Hero with short intro + CTA (contact / hire)
-- Filterable grid of WordPress projects (thumbnail, client, role, link)
-- Modal with expanded case study: problem → approach → results
-- Social handle bar + Resume / Contact CTAs
-
-Portfolio content suggestions (also in your portfolio site):
-- Hero: short tagline (what you build + who for) and 1 CTA
-- Featured case studies (2–4) with images, your role, tech, outcome/metrics
-- Full gallery of work (screenshots + live links)
-- Services & Pricing (optional) or "What I can do"
-- Testimonials / client logos
-- Resume & contact form / email link
-- Blog or notes on technical problems you solved (optional, great for SEO)
-- Performance: fast images, alt text, meta tags, open graph images
-
-Now the component code:
-*/
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
@@ -38,34 +13,50 @@ const projects = [
         role: "Full WordPress build — theme customization,Connecting instagram handle, Adding Blog page Adding chat Widget",
         tech: ["WordPress", "Elementor", "Instagram", "Blog", "Chat Widget"],
         summary: "Design Web from Scratch",
-
         images: ["./Screenshot (498).png", "./Screenshot (499).png"],
     },
+
     {
         id: 2,
-        title: "Kokan Gold",
-        client: "Kokan Gold",
-        thumbnail: "./Screenshot (500).png",
-        liveUrl: "https://kokangold.com/",
-        role: "Full WordPress build — theme customization,Connecting instagram handle",
-        tech: ["WordPress", "Elementor",],
-        summary: "Design Web from Scratch",
-        details:
-            " Design Web from Scratch, ",
-        images: ["./Screenshot (500).png", "./Screenshot (501).png"],
-    },
-    {
-        id: 3,
         title: "Bad Credit Score",
         client: "Bad Credit Score",
         thumbnail: "./Screenshot (554).png",
         liveUrl: "https://badcreditscore.in/",
-        role: "Full WordPress build — theme customization, Contact Form integration",
-        tech: ["WordPress", "Elementor", "Contact Form 7"],
+        role: "Full Winmeeto build — theme customization, Contact Form integration",
+        tech: ["Custom Code", "UI", "Contact Form"],
         summary: "Financial services website for loan assistance",
         details: "A professional website for a Direct Selling Agent (DSA) helping individuals with low CIBIL scores secure loans. Features include a clean layout, service showcasing, testimonial slider, and easy-to-use contact forms for lead generation.",
         images: ["./Screenshot (555).png", "./Screenshot (556).png"],
     },
+
+    {
+        id: 3,
+        title: "Mumbai CA",
+        client: "India CA",
+        thumbnail: "./ca1.png",
+        liveUrl: "https://ca-4-mumbai.biz/",
+        role: "Full WordPress build — theme customization, Contact Form integration",
+        tech: ["Custom Code", "UI", "Contact Form"],
+        summary: "Professional chartered accountant website presenting financial and tax services.",
+        details: "A clean and informative website designed for a Chartered Accountant firm to showcase its professional services, including taxation, auditing, and financial consulting. The site features structured service sections, clear call-to-action areas, trust-building elements, and responsive contact forms to streamline client inquiries and improve lead generation.",
+        images: ["./ca1.png", "./ca2.png", "./ca3.png"],
+    },
+
+    {
+        id: 4,
+        title: "Disha Interior",
+        client: "Disha Interior",
+        thumbnail: "./interior1.png",
+        liveUrl: "https://dishainterior.com/",
+        role: "Full WordPress build — theme customization, Contact Form integration",
+        tech: ["Elementor", "UI", "Contact Form"],
+        summary: "Professional interior design business website showcasing services and portfolio.",
+        details: "A modern and visually appealing website built for an interior design company to highlight their services, project portfolio, and brand identity. The site features a clean layout, intuitive navigation, service sections, image galleries, and user-friendly contact forms to improve client inquiries and lead generation.",
+        images: ["./interior1.png", "./interior2.png", "./interior3.png"],
+    }
+
+
+
 
 ];
 
