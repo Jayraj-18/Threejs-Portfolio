@@ -1,4 +1,4 @@
-import React from "react";
+
 import Navbar from "./Navbar";
 import Skills from "./Skills";
 import About from "./About";
@@ -11,8 +11,8 @@ function Home() {
             <Navbar />
             <About />
             <Skills />
-            <Footer />
             <WordPressShowcase />
+            <Footer />
         </>
     );
 }
