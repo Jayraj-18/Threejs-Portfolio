@@ -7,14 +7,14 @@ gsap.registerPlugin(ScrollTrigger);
 const projects = [
     {
         id: 1,
-        title: "Real Estate",
-        client: "Real Estate",
-        thumbnail: "./Screenshot (325).png", // replace
-        liveUrl: "https://drgenterprise.in/",
-        role: "Full WordPress build — theme customization,Connecting instagram handle, Adding Blog page Adding chat Widget",
-        tech: ["WordPress", "Elementor", "Instagram", "Blog", "Chat Widget"],
-        summary: "Design Web from Scratch",
-        images: ["./Screenshot (498).png", "./Screenshot (499).png"],
+        title: "Loan Website",
+        client: "Sankalp",
+        thumbnail: "./Screenshot_9-7-2026_133148_sankalpwealthadvisers.com.jpeg", // replace
+        liveUrl: "https://sankalpwealthadvisers.com/",
+        role: "Full WordPress website build from Scratch - Adding chat Widget",
+        tech: ["WordPress", "Elementor",  "Chat Widget"],
+        summary: "Design Website from Scratch",
+        images: ["./service.jpeg",],
     },
 
     {
