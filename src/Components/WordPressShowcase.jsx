@@ -58,7 +58,20 @@ const projects = [
     },
 
     {
-        id: 5,
+       id:5,
+        title: "DRG Enterprise",
+        client: "DRG Enterprise",
+        thumbnail: "./Screenshot (325).png",
+        liveUrl: "https://www.drgenterprise.in/",
+        role: "Full WordPress build , Contact Form integration",
+        tech: ["Elementor", "UI", "Contact Form"],
+        summary: "Professional business website for a Real Estate Agency.",
+        details: "A professional website for a real estate agency, showcasing property listings, services, and company information. The site features a clean design, intuitive navigation, property galleries, and user-friendly contact forms to facilitate client inquiries and lead generation.",
+        images: ["./Screenshot (498).png"],
+    },
+
+    {
+        id: 6,
         title: "Bad Credit Score",
         client: "Bad Credit Score",
         thumbnail: "./Screenshot (554).png",
